@@ -5,10 +5,10 @@ Para construir essa API foi necessário a instalação de dois pacotes do Python
 - Em seguida, foi utilizado o ***Uvicorn***, que é uma implementação de servidor ASGI para python.
 
 **FastAPI**
->`python -m pip install fastapi`
+`python -m pip install fastapi`
  
  **Uvicorn**
- >`python -m pip install uvicorn`
+`python -m pip install uvicorn`
 
 <br>
 
@@ -16,7 +16,7 @@ Para construir essa API foi necessário a instalação de dois pacotes do Python
 
 ### Executando o servidor da API
 Após a instalação dos pacotes basta executar o seguinte comando no terminal, no caminho em que se encontra os arquivos da API:
->`python -m uvicorn main:app --reload`
+`python -m uvicorn main:app --reload`
 
 O servidor iniciará e exibirá as seguintes informações:
 ![terminal exibindo o servidor uvicorn funcionando](/images/uvicorn_output.png)
@@ -29,7 +29,7 @@ O servidor estará rodando em localhost: `http://127.0.0.1:8000`
 
 ### Documentação da API web
 Após ter iniciado o servidor através do comando acima, basta acessar:
->`http://127.0.0.1:8000/docs`
+`http://127.0.0.1:8000/docs`
 
 A documentação então será exibida por meio do ***SwaggerUI*** que é automaticamente criado pelo framework *FastAPI*:
 ![documentação da API](/images/api_documentation_swagger.png)
